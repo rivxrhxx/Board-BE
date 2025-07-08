@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
-
 public class SignUpRequest {
 
     @NotBlank(message = "계정아이디는 null,공백,띄어쓰기 포함안합니다.")

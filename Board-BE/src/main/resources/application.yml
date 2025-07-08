@@ -1,2 +1,16 @@
 server:
   port: 8080
+
+spring:
+  datasource:
+    url: ${DATASOURCE}
+    username: ${USERNAME}
+    password: ${PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
